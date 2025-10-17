@@ -1,0 +1,154 @@
+.pricing{
+     width: 100%;
+    
+    background: rgb(60, 3, 70);
+    border: 1px solid rgba(199, 31, 233, 0.588);
+    box-shadow: inset 0px 0px 6px 3px rgba(164, 149, 149, 0.25);
+    backdrop-filter: blur(7px);
+
+    &__wrapper{
+        width: 1400px;
+        margin: auto; 
+    }
+
+    &__text{
+
+        width: 300px;
+        margin: auto;
+
+    }
+
+    &__h1{
+        margin: auto;
+        color: #fff;
+
+                /* Frame 17 */
+
+        /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__p{
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 21px;
+        text-align: center;
+        letter-spacing: -0.0001em;
+
+        color: #FFFFFF;
+    }
+
+    &__card{
+        width: 541px;
+        height: 504px;
+        margin: auto;
+        display: flex;
+        gap: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__card-1{
+        /* Pricing Card */
+
+        width: 307px;
+        height: 500px;
+
+
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+
+    }
+
+    &__card-2{
+       /* Pricing Card */
+
+        width: 307px;
+        height: 504px;
+
+
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+
+    }
+
+    &__btn{
+          
+        width: 200px;
+        height: 25px;
+        border-radius: 15px;
+
+        background: rgba(61, 61, 61, 0.4);
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        box-shadow: inset 0px 0px 6px 3px rgba(255, 255, 255, 0.25);
+        backdrop-filter: blur(7px);
+    
+      
+    }
+
+    &__button{
+        
+        width: 200px;
+        height: 25px;
+        border-radius: 15px;
+
+        background: rgba(140, 69, 255, 0.4);
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        box-shadow: inset 0px 0px 6px 3px rgba(255, 255, 255, 0.25);
+        backdrop-filter: blur(7px);
+        /* Note: backdrop-filter has minimal browser support */
+        border-radius: 10px;
+
+
+
+    }
+}
+
+@media (max-width: 900px) {
+  .pricing__wrapper {
+    width: 80%;
+    padding: 0 20px;
+  }
+
+  .pricing__text {
+    width: 80%;
+  }
+
+  .pricing__h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .pricing__p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .pricing__card {
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    height: auto;
+  }
+
+  .pricing__card-1,
+  .pricing__card-2 {
+    width: 80%;
+    height: auto;
+  }
+
+  .pricing__btn,
+  .pricing__button {
+    width: 150px;
+    height: 30px;
+  }
+}

@@ -1,0 +1,92 @@
+
+.world {
+  width: 100%;
+  background: rgb(60, 3, 70);
+  border: 1px solid rgba(199, 31, 233, 0.588);
+  box-shadow: inset 0px 0px 6px 3px rgba(164, 149, 149, 0.25);
+  backdrop-filter: blur(7px);
+
+  &__wrapper {
+    width: 1400px;
+    margin: auto;
+    align-items: center;
+  }
+
+  &__p {
+    width: 342px;
+    height: 26px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.0001em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-left: 555px;
+  }
+
+  &__card {
+    width: 970px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  &__card-1,
+  &__card-2,
+  &__card-3,
+  &__card-4,
+  &__card-5,
+  &__card-6,
+  &__card-7,
+  &__card-8 {
+    width: 135px;
+    height: 68px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+  }
+
+  &__h2 {
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* ====== RESPONSIVE ====== */
+
+  @media (max-width: 1200px) {
+    &__wrapper {
+      width: 1000px;
+    }
+
+    &__p {
+      margin-left: 0;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    &__card {
+      width: 90%;
+      gap: 30px;
+    }
+  }
+
+  @media (max-width: 992px) {
+    &__wrapper {
+      width: 90%;
+    }
+
+    &__card {
+      justify-content: center;
+      gap: 25px;
+    }
+  }
+
+}
