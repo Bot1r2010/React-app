@@ -1,0 +1,99 @@
+@charset "UTF-8";
+.client {
+  width: 100%;
+  background: rgb(60, 3, 70);
+  border: 1px solid rgba(199, 31, 233, 0.588);
+  box-shadow: inset 0px 0px 6px 3px rgba(164, 149, 149, 0.25);
+  -webkit-backdrop-filter: blur(7px);
+          backdrop-filter: blur(7px);
+}
+.client__wrapper {
+  width: 1400px;
+  margin: auto;
+}
+.client__h1 {
+  /* Heading 2 */
+  width: 289px;
+  height: 48px;
+  /* Heading 2 */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 56px;
+  line-height: 65px;
+  /* or 116% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.015em;
+  color: #FFFFFF;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  z-index: 0;
+  margin-left: 570px;
+}
+.client__item {
+  width: 590px;
+  height: 301px;
+  margin: auto;
+  display: flex;
+  gap: 50px;
+  margin-left: 200px;
+}
+.client__h3 {
+  /* ”This product has completely transformed how I manage my projects and deadlines” */
+  width: 239px;
+  height: 102px;
+  /* Quote */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 34px;
+  /* or 148% */
+  letter-spacing: -0.0001em;
+  color: #FFFFFF;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.client__img {
+  width: 250px;
+  height: 250px;
+  margin-left: 200px;
+}
+
+@media (max-width: 900px) {
+  .client__wrapper {
+    width: 80%;
+    padding: 0 20px;
+  }
+  .client__h1 {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .client__item {
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    gap: 20px;
+  }
+  .client__img {
+    width: 150px;
+    height: 150px;
+    margin: 0;
+  }
+  .client__h3 {
+    width: 80%;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+  }
+}/*# sourceMappingURL=client.css.map */

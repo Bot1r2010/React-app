@@ -1,0 +1,73 @@
+.world {
+  width: 100%;
+  background: rgb(60, 3, 70);
+  border: 1px solid rgba(199, 31, 233, 0.588);
+  box-shadow: inset 0px 0px 6px 3px rgba(164, 149, 149, 0.25);
+  -webkit-backdrop-filter: blur(7px);
+          backdrop-filter: blur(7px);
+  /* ====== RESPONSIVE ====== */
+}
+.world__wrapper {
+  width: 1400px;
+  margin: auto;
+  align-items: center;
+}
+.world__p {
+  width: 342px;
+  height: 26px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.0001em;
+  color: rgba(255, 255, 255, 0.7);
+  margin-left: 555px;
+}
+.world__card {
+  width: 970px;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.world__card-1, .world__card-2, .world__card-3, .world__card-4, .world__card-5, .world__card-6, .world__card-7, .world__card-8 {
+  width: 135px;
+  height: 68px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+}
+.world__h2 {
+  color: white;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 1200px) {
+  .world__wrapper {
+    width: 1000px;
+  }
+  .world__p {
+    margin-left: 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .world__card {
+    width: 90%;
+    gap: 30px;
+  }
+}
+@media (max-width: 992px) {
+  .world__wrapper {
+    width: 90%;
+  }
+  .world__card {
+    justify-content: center;
+    gap: 25px;
+  }
+}/*# sourceMappingURL=world.css.map */

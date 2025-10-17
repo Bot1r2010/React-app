@@ -1,0 +1,102 @@
+.ai {
+  width: 100%;
+  background: rgb(60, 3, 70);
+  border: 1px solid rgba(199, 31, 233, 0.588);
+  box-shadow: inset 0px 0px 6px 3px rgba(164, 149, 149, 0.25);
+  -webkit-backdrop-filter: blur(7px);
+          backdrop-filter: blur(7px);
+}
+.ai__wrapper {
+  width: 1400px;
+  height: 300px;
+  margin: auto;
+}
+.ai__h1 {
+  width: 250px;
+  margin-top: 250px;
+  font-size: 35px;
+  margin: auto;
+  color: white;
+}
+.ai__form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+}
+.ai__input {
+  /* Form */
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+  width: 150px;
+  height: 41px;
+  background: #000000;
+  border-radius: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 31px;
+  /* identical to box height, or 207% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.0101em;
+  color: #000000;
+  color: rgba(255, 255, 255, 0.5);
+}
+.ai__btn {
+  width: 100px;
+  height: 41px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 31px;
+  /* identical to box height, or 207% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.0101em;
+  color: #000000;
+}
+
+@media (max-width: 900px) {
+  .ai__wrapper {
+    width: 80%;
+    height: auto;
+    padding: 0 20px;
+  }
+  .ai__h1 {
+    width: 80%;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 100px;
+  }
+  .ai__form {
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 50px;
+  }
+  .ai__input {
+    width: 80%;
+    height: 35px;
+    font-size: 14px;
+  }
+  .ai__btn {
+    width: 80%;
+    height: 35px;
+    font-size: 14px;
+  }
+}/*# sourceMappingURL=ai.css.map */
